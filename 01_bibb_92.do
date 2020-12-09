@@ -1,4 +1,4 @@
-tester hier
+
 clear all
 ***Version festlegen
 version 12
