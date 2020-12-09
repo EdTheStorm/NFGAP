@@ -1,4 +1,4 @@
-
+tester hier
 clear all
 ***Version festlegen
 version 12
@@ -8,11 +8,11 @@ set logtype text
 set linesize 255
 
 
-** Makros für Pfade
+** Makros fÃ¼r Pfade
 global datenpfad "C:\Users\estorm\Google Drive\BIBB data\BIBB-Erwerbstaetige_1-6\BIBB_ALLE\"
 global outputpfad "C:\Users\estorm\Google Drive\BIBB data\Log Files\BIBB_log\"
 
-*** Makros für Datei- und Outputnamen
+*** Makros fÃ¼r Datei- und Outputnamen
 global bibb_79 BIBB_1979.dta
 global bibb_86 BIBB_1986.dta
 global bibb_92 BIBB_1992.dta
@@ -24,7 +24,7 @@ global bibb_92_clean BIBB_1992_clean.dta
 global bibb_92_tasks BIBB_1992_TASKS.dta
 global bibb_92_career BIBB_1992_CAREER.dta
 
-global outputname <outputname> /*Outputname einfügen*/
+global outputname <outputname> /*Outputname einfÃ¼gen*/
 
 ***Aufzeichnung Protokoll starten
 capture log close
